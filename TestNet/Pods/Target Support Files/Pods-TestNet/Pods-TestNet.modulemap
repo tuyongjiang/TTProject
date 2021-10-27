@@ -1,0 +1,6 @@
+framework module Pods_TestNet {
+  umbrella header "Pods-TestNet-umbrella.h"
+
+  export *
+  module * { export * }
+}
