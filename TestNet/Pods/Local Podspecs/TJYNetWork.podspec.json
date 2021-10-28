@@ -1,0 +1,57 @@
+{
+  "name": "TJYNetWork",
+  "version": "0.3.0",
+  "summary": "A short description of TJYNetWork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://gitee.com/tyjzz/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tuyongjiang": "772304867@qq.com"
+  },
+  "source": {
+    "git": "https://gitee.com/tyjzz/tyjnet-work.git",
+    "tag": "0.3.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TJYNetWork/NetWork/TJYNetWork.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 4.0.0"
+    ],
+    "SDWebImage": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "NSURLSession",
+      "source_files": "TJYNetWork/NetWork/NSURLSession/*.{h,m}"
+    },
+    {
+      "name": "Reachability",
+      "source_files": "TJYNetWork/NetWork/Reachability/*.{h,m}",
+      "dependencies": {
+        "TJYNetWork/NSURLSession": [
+
+        ]
+      }
+    },
+    {
+      "name": "Security",
+      "source_files": "TJYNetWork/NetWork/Security/*.{h,m}"
+    },
+    {
+      "name": "Serialization",
+      "source_files": "TJYNetWork/NetWork/Serialization/*.{h,m}"
+    }
+  ]
+}

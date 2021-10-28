@@ -1,12 +1,20 @@
 # Uncomment the next line to define a global platform for your project
+source "https://gitee.com/tyjzz/tyjnet-work-sepc.git"
+source "https://github.com/CocoaPods/Specs.git"
 platform :ios, '10.0'
 
 target 'TestNet' do
 
   use_frameworks!
 
-
-  pod 'TNetWork', :path => '/Users/tuyongjiang/Desktop/TNetWork/TNetWork.podspec'
+#引入本地库  开发调试使用
+#  pod 'TNetWork', :path => '../TNetWork'
+  pod 'WW_HOMES', :path => '../WW_HOMES'
+  pod 'TJYNetWork', :path => '../tyjnet-work'
+#引入库, 上线使用
+  pod 'TNetWork'
+#  pod 'WW_HOMES'
+  
   target 'TestNetTests' do
 
   end

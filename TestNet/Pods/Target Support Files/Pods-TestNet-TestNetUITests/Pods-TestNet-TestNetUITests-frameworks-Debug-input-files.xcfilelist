@@ -1,4 +1,7 @@
 ${PODS_ROOT}/Target Support Files/Pods-TestNet-TestNetUITests/Pods-TestNet-TestNetUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/TJYNetWork/TJYNetWork.framework
 ${BUILT_PRODUCTS_DIR}/TNetWork/TNetWork.framework
+${BUILT_PRODUCTS_DIR}/WW_HOMES/WW_HOMES.framework
 ${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework

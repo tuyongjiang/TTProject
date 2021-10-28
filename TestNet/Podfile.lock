@@ -14,28 +14,61 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - TNetWork (0.0.5):
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - TJYNetWork (0.3.0):
+    - AFNetworking (~> 4.0.0)
+    - SDWebImage
+    - TJYNetWork/NSURLSession (= 0.3.0)
+    - TJYNetWork/Reachability (= 0.3.0)
+    - TJYNetWork/Security (= 0.3.0)
+    - TJYNetWork/Serialization (= 0.3.0)
+  - TJYNetWork/NSURLSession (0.3.0):
+    - AFNetworking (~> 4.0.0)
+    - SDWebImage
+  - TJYNetWork/Reachability (0.3.0):
+    - AFNetworking (~> 4.0.0)
+    - SDWebImage
+    - TJYNetWork/NSURLSession
+  - TJYNetWork/Security (0.3.0):
+    - AFNetworking (~> 4.0.0)
+    - SDWebImage
+  - TJYNetWork/Serialization (0.3.0):
+    - AFNetworking (~> 4.0.0)
+    - SDWebImage
+  - TNetWork (0.0.6):
     - AFNetworking
     - YYCache
+  - WW_HOMES (0.0.1)
   - YYCache (1.0.4)
 
 DEPENDENCIES:
-  - TNetWork (from `/Users/tuyongjiang/Desktop/TNetWork/TNetWork.podspec`)
+  - TJYNetWork (from `../tyjnet-work`)
+  - TNetWork
+  - WW_HOMES (from `../WW_HOMES`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - SDWebImage
+    - TNetWork
     - YYCache
 
 EXTERNAL SOURCES:
-  TNetWork:
-    :path: "/Users/tuyongjiang/Desktop/TNetWork/TNetWork.podspec"
+  TJYNetWork:
+    :path: "../tyjnet-work"
+  WW_HOMES:
+    :path: "../WW_HOMES"
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  TNetWork: dd49ae19852f040888aba97552bdf73389aa78a1
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  TJYNetWork: 1e2118dce0a4d662a0c4da9cc18005400932e0de
+  TNetWork: 4425d06906a9364c814a91c6e87dc5e7514f0412
+  WW_HOMES: fa98bf0a17800c84d76e5c8989142d63985b36d7
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 6f30d1e3f9075a272d39e316fcc1da56c8522718
+PODFILE CHECKSUM: 0ab062e85645e36cffa49e9f2bb3b3a1180e05af
 
 COCOAPODS: 1.9.3

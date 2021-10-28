@@ -1,0 +1,22 @@
+{
+  "name": "WW_HOMES",
+  "version": "0.0.1",
+  "summary": "A short description of WW_HOMES.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://gitee.com/tyjzz/ww_-home.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "涂永江": "7723048667@qq.com"
+  },
+  "source": {
+    "git": "https://gitee.com/tyjzz/ww_-home.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WW_HOMES/Classes/**/*"
+}

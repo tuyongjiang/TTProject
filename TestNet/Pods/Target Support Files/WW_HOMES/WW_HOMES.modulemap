@@ -1,0 +1,6 @@
+framework module WW_HOMES {
+  umbrella header "WW_HOMES-umbrella.h"
+
+  export *
+  module * { export * }
+}
